@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Morse Code</title>
+        <h1>Morse Code Translator</h1>
+
+        <div class="container">
+            <div>
+                <h3>English</h3>
+                <textarea
+                    type="input"
+                    cols="50"
+                    rows="20"
+                    id="english"
+                ></textarea>
+            </div>
+            <div class="btn-container">
+                <button id="englishButton" onclick="getEnglish()">
+                    English to Morse Code →
+                </button>
+                <button id="morseButon" onclick="getMorse()">
+                    ← Morse Code to English
+                </button>
+            </div>
+            <div>
+                <h3>Morse Code</h3>
+                <textarea
+                    type="input"
+                    cols="50"
+                    rows="20"
+                    id="morse"
+                ></textarea>
+            </div>
+        </div>
+    </head>
+    <body></body>
+</html>

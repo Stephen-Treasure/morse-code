@@ -4,11 +4,12 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="script.js" defer></script>
+
         <link rel="stylesheet" href="style.css" />
         <title>Morse Code</title>
+    </head>
+    <body>
         <h1>Morse Code Translator</h1>
-
         <div class="container">
             <div>
                 <h3>English</h3>
@@ -20,12 +21,8 @@
                 ></textarea>
             </div>
             <div class="btn-container">
-                <button id="englishButton" onclick="getEnglish()">
-                    English to Morse Code →
-                </button>
-                <button id="morseButon" onclick="getMorse()">
-                    ← Morse Code to English
-                </button>
+                <button id="englishButton">English to Morse Code →</button>
+                <button id="morseButton">← Morse Code to English</button>
             </div>
             <div>
                 <h3>Morse Code</h3>
@@ -37,6 +34,6 @@
                 ></textarea>
             </div>
         </div>
-    </head>
-    <body></body>
+    </body>
+    <script src="./index.js" type="module"></script>
 </html>

@@ -8,7 +8,7 @@ export const getEnglish = (input, dictionnary) => {
         dictionnary[char] ? dictionnary[char] : char,
     );
 
-    const joinedTranslation = translatedChar.join("");
+    const joinedTranslation = translatedChar.join(" ");
     return joinedTranslation;
 };
 
